@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".img">
+
+
+    <ImageView
+        android:id="@+id/w1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/w1"/>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/w2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/w2"/>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/w3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/w3"/>
+
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/w4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/w4"/>
+
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/w5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/w5"/>
+
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/w6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/w6"
+        />
+
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/w7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/w7"/>
+
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/w8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/w8"/>
+
+
+</FrameLayout>
